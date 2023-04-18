@@ -1,30 +1,30 @@
-* {
+* { /*setting the webpages padding and margin to 0*/
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-body {
+body { /*set background color for the body of the webpage*/
     background-color: #d9dcd6;
 }
 
-.header {
+.header { /*set padding, font, background color, and general text color for elements inside the header */
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-.header h1 {
+.header h1 { /*set the h1 element in the header class to be an inline-block, also set font size*/
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+.header h1 .seo { /*setting color for the text within the <span> element that was assigned the .seo class*/
     color: #d9dcd6;
 }
 
-.header nav {
+.header nav { /*setting the top-padding and right-margin, have the buttons float right, set font size and family*/
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,112 +32,55 @@ body {
     font-size: 20px;
 }
 
-.header nav ul {
+.header nav ul { /*remove the list style for better look, target the unordered list element*/
     list-style-type: none;
 }
 
-.header nav ul li {
+.header nav ul li { /*make the li elements display inline, set a left-margin*/
     display: inline-block;
     margin-left: 25px;
 }
 
-a {
+a { /*set a color and remove text decoration for all <a> elements*/
     color: #ffffff;
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
+p { /*set a font size for <p> elements*/
+    font-size: 16px; /**/
 }
 
-.hero {
-    display:block;
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    object-fit: cover;
-    object-position: center;
-    /*background-image: url("../images/digital-marketing-meeting.jpg"); load this through html, adjust the background stuff
+.hero { /*adjusts the primary image banner*/
+    display:block; /* set the image to fit the container */
+    height: 800px; /*setting height of the container*/
+    width: 100%;/*setting width of the container*/
+    margin-bottom: 25px;/*setting a bottom-margin for the container*/
+    object-fit: cover;/*maintain the aspect ratio, inside the container*/
+    object-position: center;/*center the image position*/
+
+    /*changed the code so the image would load through the html and not the css*/
+    /*background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;*/
 }
 
-.float-left {
+.float-left { /*make any element tagged with this class float left with a specific margin*/
     float: left;
     margin-right: 25px;
 }
 
-.float-right {
+.float-right { /*make any element tagged with this class float right with a specific margin*/
     float: right;
     margin-left: 25px;
 }
 
-.content {
+.content { /*setting the width, display style and left-margin for the section element tied to the content class, left hand side content*/
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-}
-
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
+.search-engine-optimization { /*set margin-bottom, padding, height, font family, background color and text color for search-engine-optimization section*/
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -146,7 +89,7 @@ p {
     color: #ffffff;
 }
 
-.online-reputation-management {
+.online-reputation-management { /*set margin-bottom, padding, height, font family, background color and text color for online-reputation-management section*/
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -155,7 +98,7 @@ p {
     color: #ffffff;
 }
 
-.social-media-marketing {
+.social-media-marketing { /*set margin-bottom, padding, height, font family, background color and text color for social-media-marketing section*/
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -164,40 +107,99 @@ p {
     color: #ffffff;
 }
 
-.search-engine-optimization img {
+.search-engine-optimization img { /*set height of the image inside the search-engine-optimization class*/
     max-height: 200px;
 }
 
-.online-reputation-management img {
+.online-reputation-management img { /*et height of the image inside the online-reputation-management class*/
     max-height: 200px;
 }
 
-.social-media-marketing img {
+.social-media-marketing img { /*set height of the image inside the social-media-marketing class*/
     max-height: 200px;
 }
 
-.search-engine-optimization h2 {
+.search-engine-optimization h2 { /*set margin-bottom and font size for h2 inside search-engine-optimization*/
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.online-reputation-management h2 {
+.online-reputation-management h2 { /*set margin-bottom and font size for h2 inside online-reputation-management*/
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.social-media-marketing h2 {
+.social-media-marketing h2 { /*set margin-bottom and font size for h2 inside social-media-marketing class*/
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.footer {
+.benefits { /*adjusting the section element tied to the benefits class, right hand side section*/
+    margin-right: 20px; /*set right margin, relative to the entire webpage*/
+    padding: 20px; /*set padding, relative to the entire webpage*/
+    clear: both; /*adjusts flow of floating elements, in this case the elements fit nicely, should elements overlap this container will be pushed down*/
+    float: right; /*have the container float right, relative the entire webpage*/
+    width: 20%; /*set width of container*/
+    height: 100%; /*set height of container*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;/*set font family*/
+    background-color: #2589bd; /*set background color*/
+}
+
+.benefit-lead { /*define margin-bottom and color for element tied to this class*/
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-brand { /*define margin-bottom and color for element tied to this class*/
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-cost { /*define margin-bottom and color for element tied to this class*/
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-lead h3 { /*set margin-bottom and align text center for h3 inside benefit-lead class*/
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-brand h3 { /*set margin-bottom and align text center for h3 inside benefit-brand class*/
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-cost h3 { /*set margin-bottom and align text center for h3 inside benefit-cost class*/
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-lead img { /*set display style, margin, and max-width of the <img> tag inside benefit-lead class*/
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-brand img { /*set display style, margin, and max-width of the <img> tag inside benefit-brand class*/
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-cost img { /*set display style, margin, and max-width of the <img> tag inside benefit-lead class*/
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.footer { /*set padding, float flow, font family and text alignment for footer element*/
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+.footer h2 { /*set font size for h2 in footer*/
     font-size: 20px;
 }
