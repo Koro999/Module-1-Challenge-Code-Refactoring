@@ -80,56 +80,20 @@ p { /*set a font size for <p> elements*/
     margin-left: 20px;
 }
 
-.search-engine-optimization { /*set margin-bottom, padding, height, font family, background color and text color for search-engine-optimization section*/
+.content article { /*condensed all the css targeting article into one, under the .content class*/
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
-    color: #ffffff;
+    color: #ffffff;   
 }
 
-.online-reputation-management { /*set margin-bottom, padding, height, font family, background color and text color for online-reputation-management section*/
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing { /*set margin-bottom, padding, height, font family, background color and text color for social-media-marketing section*/
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img { /*set height of the image inside the search-engine-optimization class*/
+.content img { /* condensed all the css targeting h2 into one, under the .content class*/
     max-height: 200px;
 }
 
-.online-reputation-management img { /*et height of the image inside the online-reputation-management class*/
-    max-height: 200px;
-}
-
-.social-media-marketing img { /*set height of the image inside the social-media-marketing class*/
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 { /*set margin-bottom and font size for h2 inside search-engine-optimization*/
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 { /*set margin-bottom and font size for h2 inside online-reputation-management*/
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 { /*set margin-bottom and font size for h2 inside social-media-marketing class*/
+.content h2 { /* condensed all the css targeting h2 into one, under the .content class*/
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -145,52 +109,21 @@ p { /*set a font size for <p> elements*/
     background-color: #2589bd; /*set background color*/
 }
 
-.benefit-lead { /*define margin-bottom and color for element tied to this class*/
+.benefits article{ /* condensed all the css targeting article into one, under the .benefits class*/
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand { /*define margin-bottom and color for element tied to this class*/
-    margin-bottom: 32px;
-    color: #ffffff;
-}
 
-.benefit-cost { /*define margin-bottom and color for element tied to this class*/
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 { /*set margin-bottom and align text center for h3 inside benefit-lead class*/
+.benefits h3 { /* condensed all the css targeting h3 into one, under the .benefits class*/
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 { /*set margin-bottom and align text center for h3 inside benefit-brand class*/
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 { /*set margin-bottom and align text center for h3 inside benefit-cost class*/
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img { /*set display style, margin, and max-width of the <img> tag inside benefit-lead class*/
+.benefits img { /* condensed all the css targeting img into one, under the .benefits class*/
     display: block;
     margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img { /*set display style, margin, and max-width of the <img> tag inside benefit-brand class*/
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img { /*set display style, margin, and max-width of the <img> tag inside benefit-lead class*/
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
+    max-width: 150px; 
 }
 
 .footer { /*set padding, float flow, font family and text alignment for footer element*/
